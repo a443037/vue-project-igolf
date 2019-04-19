@@ -9,7 +9,7 @@ Vue.config.productionTip = false;
 // 使用路由插件
 Vue.use(VueRouter);
 
-// 路由的实例化
+// 路由的实例化。。。。。
 const router = new VueRouter({
     routes // (缩写) 相当于 routes: routes
 });
