@@ -1,7 +1,10 @@
 <template>
   <div>
-    <h1>hello word!vscode提交</h1>
-
+    <!-- 小电视，用来盛放自定义组件 -->
+    <h1>我是公共部分</h1>
+       <router-view></router-view>
+    <h1>我是公共部分</h1>
+    
   </div>
 </template>
 
