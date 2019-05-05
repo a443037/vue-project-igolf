@@ -1,16 +1,15 @@
 <template>
     <div>
-        <h1>我是bar组件</h1>
-        <DatePicker />
+        <img :src="`/api/uploads/${picname}`" >
     </div>
 </template>
 
 <script>
     export default {
-        
+        props:['picname']
     }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 
 </style>
